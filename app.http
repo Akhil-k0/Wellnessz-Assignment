@@ -1,0 +1,16 @@
+
+GET http://localhost:3000/api/posts
+
+###
+
+POST http://localhost:3000/api/posts
+Content-Type: application/json
+
+{
+    "title": "New Post2",
+    "desc": "Description of new post",
+    "tag": "Tag2",
+    "image": "http://example.com/image.jpg"
+}
+
+###
